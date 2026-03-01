@@ -4,7 +4,7 @@ import time
 import heapq
 import random
 import math
-
+# # v1.0 - Initial release, commit it
 # --- Constants ---
 DEFAULT_ROWS = 10
 DEFAULT_COLS = 10
@@ -781,4 +781,5 @@ class GridApp:
 if __name__ == "__main__":
     root = tk.Tk()
     app = GridApp(root)
+
     root.mainloop()
