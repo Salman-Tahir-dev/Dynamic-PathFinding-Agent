@@ -4,7 +4,6 @@ import time
 import heapq
 import random
 import math
-# # v1.0 - Initial release, commit it
 # --- Constants ---
 DEFAULT_ROWS = 10
 DEFAULT_COLS = 10
@@ -783,3 +782,4 @@ if __name__ == "__main__":
     app = GridApp(root)
 
     root.mainloop()
+#Finder pathdynamic
