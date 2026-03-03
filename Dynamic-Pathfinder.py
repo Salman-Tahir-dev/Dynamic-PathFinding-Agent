@@ -4,7 +4,7 @@ import time
 import heapq
 import random
 import math
-#This is the code for Dynamic Path finder Algo using the A*-GBFS and using Heuritics like Mahattan and Euclidien
+#This is the code for Dynamic Path finder Algo using the A*-GBFS and using Heuritics like Mahattan Distance and Euclideian
 # --- Constants ---
 DEFAULT_ROWS = 10
 DEFAULT_COLS = 10
@@ -783,6 +783,7 @@ if __name__ == "__main__":
     app = GridApp(root)
 
     root.mainloop()
+
 
 
 
